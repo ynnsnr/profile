@@ -1,3 +1,5 @@
+/* Colors and Fonts */
+
 body {
   background-color: #EBEBEB;
   font-family: 'Open Sans', sans-serif;
@@ -27,6 +29,10 @@ h3 {
   text-align: start;
 }
 
+p {
+  text-align: justify;
+}
+
 a {
   color: #ccc;
   text-decoration: none;
@@ -36,11 +42,7 @@ a:hover {
   color: #DD5555;
 }
 
-p {
-  text-align: justify;
-}
-
-@media (max-width: 960px) {
+/*@media (max-width: 960px) {
   .container {
     width: 700px;
     margin: 30px auto;
@@ -57,19 +59,11 @@ p {
     width: 300px;
     margin: 30px auto;
   }
-}
+}*/
 
-.container {
-  width: 500px;
+.container-fluid {
+  width: 90%;
   margin: 30px auto;
-}
-
-.img-circle {
-  border-radius: 50%;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .card {
@@ -78,6 +72,14 @@ p {
   margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .list-inline {
@@ -106,6 +108,8 @@ p {
   color: white;
 }
 
+/* Specific CSS rules */
+
 #img-profile {
   width: 100px;
   height: 100px;
@@ -124,4 +128,50 @@ p {
 
 #movies td {
   padding: 10px;
+}
+
+/* Fixed sidebar layout */
+
+#page-content {
+  margin-left: 120px;
+}
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  font-size: 25px;
+  color:#788188;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+/* Responsive layout behavior */
+
+@media (max-width: 768px) {
+  #page-content{
+    margin-left: 0px;
+  }
+  #sidebar {
+    display: none;
+  }
 }

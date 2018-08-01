@@ -5,99 +5,122 @@
     <title>Yoann Saunier</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
 
-    <div class="container">
-      <div class="card text-center">
-        <img src="images/yoann.jpg" alt="Yoann" class="img-circle" id="img-profile">
-        <h1>Yoann Saunier</h1>
-        <h2>Student @Le Wagon</h2>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-movies">
+            <i class="fa fa-file-video-o"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#footer">
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
 
-        <p>
-          I work as a musician / sound engineer. Considering the evolution of the profession, I'd like to diversify my skills and <strong>blend music and code in the future.</strong>
-        </p>
+    <div id="page-content">
+      <div class="container-fluid">
+        <div class="card text-center">
+          <img src="images/yoann.jpg" alt="Yoann" class="img-circle" id="img-profile">
+          <h1>Yoann Saunier</h1>
+          <h2>Student @Le Wagon</h2>
 
-        <a href="http://yoann.saunier.me" class="btn-red">Visit my website</a>
-      </div>
+          <p>
+            I work as a musician / sound engineer. Considering the evolution of the profession, I'd like to diversify my skills and <strong>blend music and code in the future.</strong>
+          </p>
 
-      <div class="card text-center">
-        <ul class="list-inline">
-          <li>
-            <a href="https://www.facebook.com/djyoyo" target="_blank">
-              <i class="fab fa-facebook-f"></i><br>Facebook
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/yoann-saunier-536368151" target="_blank">
-              <i class="fab fa-linkedin-in"></i><br>Linkedin
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/ynnsnr" target="_blank">
-              <i class="fab fa-github"></i><br>Github
-            </a>
-          </li>
-        </ul>
-      </div>
+          <a href="http://yoann.saunier.me" class="btn-red">Visit my website</a>
+        </div>
 
-      <div class="card text-center">
-        <h2>My favorite movies</h2>
-        <table id="movies">
-          </tbody>
-            <tr>
-              <td>
-                <img src="https://media.senscritique.com/media/000005695693/source_big/Blade_Runner.jpg" alt="Blade Runner" width="200px">
-              </td>
-              <td>
-                <h3>Blade Runner</h3>
-                <p>Dans les dernières années du 20e siècle, des milliers d'hommes et de femmes partent à la conquête de l'espace, fuyant les mégalopoles devenues insalubres. Sur les colonies, une nouvelle race d'esclaves voit le jour : les répliquants, des androïdes que rien ne peut distinguer de l'être humain. Cependant, suite à une révolte, ces derniers sont peu à peu retirés.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,704,1000_AL_.jpg" alt="The Godfather" width="200px">
-              </td>
-              <td>
-                <h3>Le Parrain</h3>
-                <p>En 1945, à New York, les Corleone sont une des 5 familles de la mafia. Don Vito Corleone, `parrain' de cette famille, marie sa fille à un bookmaker. Sollozzo, `parrain' de la famille Tattaglia, propose à Don Vito une association dans le trafic de drogue, mais celui-ci refuse. Sonny, un de ses fils, y est quant à lui favorable. Afin de traiter avec Sonny, Sollozzo tente de faire tuer Don Vito, mais celui-ci en réchappe.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="https://www.santamonica.com/wp-content/uploads/2017/01/A_Clockwork_Orange.jpg" alt="A Clockwork Orange" width="200px">
-              </td>
-              <td>
-                <h3>Orange mécanique</h3>
-                <p>Dans une Angleterre futuriste et inhumaine, un groupe d'adolescents se déchaînent chaque nuit, frappant et violant d'innocentes victimes. Alex, le leader du gang est arrêté et condamné à 14 ans de prison. Il accepte de se soumettre à une thérapie de choc destinée à faire reculer la criminalité.</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+        <div class="card text-center" id="summary">
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.facebook.com/djyoyo" target="_blank">
+                <i class="fab fa-facebook-f"></i><br>Facebook
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/yoann-saunier-536368151" target="_blank">
+                <i class="fab fa-linkedin-in"></i><br>Linkedin
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/ynnsnr" target="_blank">
+                <i class="fab fa-github"></i><br>Github
+              </a>
+            </li>
+          </ul>
+        </div>
 
-      <div class="card text-center">
-        <h2>About this page</h2>
-        This page has been coded during the <a href="https://lewagon.com/program">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
-        <ul class="list-inline">
-          <li>
-            <a href="#">
-              <i class="fas fa-heart"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fas fa-share"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fas fa-star"></i>
-            </a>
-          </li>
-        </ul>
+        <div class="card text-center" id="favorite-movies">
+          <h2>My favorite movies</h2>
+          <table id="movies">
+            </tbody>
+              <tr>
+                <td>
+                  <img src="https://media.senscritique.com/media/000005695693/source_big/Blade_Runner.jpg" alt="Blade Runner" width="200px">
+                </td>
+                <td>
+                  <h3>Blade Runner</h3>
+                  <p>Dans les dernières années du 20e siècle, des milliers d'hommes et de femmes partent à la conquête de l'espace, fuyant les mégalopoles devenues insalubres. Sur les colonies, une nouvelle race d'esclaves voit le jour : les répliquants, des androïdes que rien ne peut distinguer de l'être humain. Cependant, suite à une révolte, ces derniers sont peu à peu retirés.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,704,1000_AL_.jpg" alt="The Godfather" width="200px">
+                </td>
+                <td>
+                  <h3>Le Parrain</h3>
+                  <p>En 1945, à New York, les Corleone sont une des 5 familles de la mafia. Don Vito Corleone, `parrain' de cette famille, marie sa fille à un bookmaker. Sollozzo, `parrain' de la famille Tattaglia, propose à Don Vito une association dans le trafic de drogue, mais celui-ci refuse. Sonny, un de ses fils, y est quant à lui favorable. Afin de traiter avec Sonny, Sollozzo tente de faire tuer Don Vito, mais celui-ci en réchappe.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="https://www.santamonica.com/wp-content/uploads/2017/01/A_Clockwork_Orange.jpg" alt="A Clockwork Orange" width="200px">
+                </td>
+                <td>
+                  <h3>Orange mécanique</h3>
+                  <p>Dans une Angleterre futuriste et inhumaine, un groupe d'adolescents se déchaînent chaque nuit, frappant et violant d'innocentes victimes. Alex, le leader du gang est arrêté et condamné à 14 ans de prison. Il accepte de se soumettre à une thérapie de choc destinée à faire reculer la criminalité.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card text-center" id="footer">
+          <h2>About this page</h2>
+          This page has been coded during the <a href="https://lewagon.com/program">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
+          <ul class="list-inline">
+            <li>
+              <a href="#">
+                <i class="fas fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-share"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-star"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
