@@ -23,9 +23,6 @@ h3 {
   font-weight: 300;
   text-align: start;
 }
-p {
-  text-align: justify;
-}
 a {
   color: #ccc;
   text-decoration: none;
@@ -95,17 +92,6 @@ a:hover {
   width: 100px;
   height: 100px;
   border: 3px solid #cccccc;
-}
-#movies {
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 1.6em;
-}
-#movies img {
-  width: 80px;
-}
-#movies td {
-  padding: 10px;
 }
 
 /* Fixed sidebar layout */
@@ -243,4 +229,8 @@ ul#imageGallery li a img {
 }
 #overlay .holder .nav #close:hover {
   opacity: 1;
+}
+
+img {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24);
 }
