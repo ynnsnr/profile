@@ -231,6 +231,22 @@ ul#imageGallery li a img {
   opacity: 1;
 }
 
-img {
+#imageGallery img {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24);
+}
+
+#skills {
+  padding: 0 0 30px 30px;
+}
+#skills img {
+  height: 36px;
+  width: 36px;
+}
+.skills-elements {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.skills-elements img {
+    margin-right: 5px;
 }
